@@ -1,0 +1,84 @@
+	DLL Name: KERNEL32.dll
+	vma:  Hint/Ord Member-Name Bound-To
+	d8fc	  353  GetFileAttributesW
+	d912	  356  GetFileSizeEx
+	d922	   83  CreateFileA
+	d930	  547  InitializeCriticalSection
+	d94c	  129  DeleteCriticalSection
+	d964	  693  ReadFile
+	d970	  355  GetFileSize
+	d97e	  932  WriteFile
+	d98a	  593  LeaveCriticalSection
+	d9a2	  152  EnterCriticalSection
+	d9ba	  794  SetFileAttributesW
+	d9d0	  779  SetCurrentDirectoryW
+	d9e8	   78  CreateDirectoryW
+	d9fc	  470  GetTempPathW
+	da0c	  500  GetWindowsDirectoryW
+	da24	  350  GetFileAttributesA
+	da3a	  853  SizeofResource
+	da4c	  613  LockResource
+	da5c	  599  LoadResource
+	d8e6	  629  MultiByteToWideChar
+	da7c	  854  Sleep
+	da84	  644  OpenMutexA
+	da92	  361  GetFullPathNameA
+	daa6	   67  CopyFileA
+	dab2	  381  GetModuleFileNameA
+	dac8	  897  VirtualAlloc
+	dad8	  899  VirtualFree
+	dae6	  248  FreeLibrary
+	daf4	  528  HeapAlloc
+--
+	DLL Name: USER32.dll
+	vma:  Hint/Ord Member-Name Bound-To
+	dbb8	  727  wsprintfA
+
+ 0000d5d0	0000d60c 00000000 00000000 0000dc84 00008000
+
+	DLL Name: ADVAPI32.dll
+	vma:  Hint/Ord Member-Name Bound-To
+	dc2a	  100  CreateServiceA
+	dc62	  431  OpenServiceA
+	dc52	  585  StartServiceA
+	dc3c	   62  CloseServiceHandle
+	dc14	  160  CryptReleaseContext
+	dc04	  467  RegCreateKeyW
+	dbf2	  516  RegSetValueExA
+	dbde	  503  RegQueryValueExA
+	dbd0	  459  RegCloseKey
+	dc72	  429  OpenSCManagerA
+
+ 0000d5e4	0000d714 00000000 00000000 0000de88 00008108
+
+	DLL Name: MSVCRT.dll
+	vma:  Hint/Ord Member-Name Bound-To
+	dddc	  679  realloc
+	dcb8	  588  fclose
+	dcc2	  614  fwrite
+	dccc	  605  fread
+	dcd4	  599  fopen
+	dcdc	  690  sprintf
+	dce6	  678  rand
+	dcee	  692  srand
+	dcf6	  698  strcpy
+	dd00	  665  memset
+	dd0a	  702  strlen
+	dd14	  735  wcscat
+	dd1e	  742  wcslen
+	dd28	   73  __CxxFrameHandler
+	dd3c	   16  ??3@YAXPAX@Z
+	dd4c	  662  memcmp
+	dd56	  202  _except_handler3
+	dd6a	  316  _local_unwind2
+	dd7c	  747  wcsrchr
+	dd86	  715  swprintf
+	dd92	   15  ??2@YAPAXI@Z
+	dda2	  663  memcpy
+	ddac	  696  strcmp
+	ddb6	  707  strrchr
+	ddc0	   99  __p___argv
+	ddce	   98  __p___argc
+	dde6	  449  _stricmp
+	ddf2	  606  free
+	ddfa	  657  malloc

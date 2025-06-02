@@ -1,0 +1,354 @@
+  401001:	33 f6                	xor    %esi,%esi
+  401029:	33 c0                	xor    %eax,%eax
+  40106e:	33 c0                	xor    %eax,%eax
+  40107b:	33 f6                	xor    %esi,%esi
+  4010f7:	33 c0                	xor    %eax,%eax
+  40111a:	33 c0                	xor    %eax,%eax
+  40115f:	33 f6                	xor    %esi,%esi
+  40121a:	33 c0                	xor    %eax,%eax
+  401241:	33 c0                	xor    %eax,%eax
+  4012b2:	33 ff                	xor    %edi,%edi
+  401317:	33 ff                	xor    %edi,%edi
+  40144c:	33 ff                	xor    %edi,%edi
+  401485:	33 c0                	xor    %eax,%eax
+  4014d5:	33 db                	xor    %ebx,%ebx
+  4014e6:	33 c0                	xor    %eax,%eax
+  4016f7:	33 c0                	xor    %eax,%eax
+  401719:	33 db                	xor    %ebx,%ebx
+  4017d8:	33 c0                	xor    %eax,%eax
+  4017e0:	33 c0                	xor    %eax,%eax
+  40182e:	33 ff                	xor    %edi,%edi
+  40186d:	33 c0                	xor    %eax,%eax
+  4018ae:	33 c0                	xor    %eax,%eax
+  401920:	33 f6                	xor    %esi,%esi
+  4019d0:	33 c0                	xor    %eax,%eax
+  401a19:	33 c0                	xor    %eax,%eax
+  401a46:	33 db                	xor    %ebx,%ebx
+  401af1:	33 c0                	xor    %eax,%eax
+  401b27:	33 c0                	xor    %eax,%eax
+  401b78:	33 c0                	xor    %eax,%eax
+  401b8d:	33 c0                	xor    %eax,%eax
+  401ba2:	33 c0                	xor    %eax,%eax
+  401cf2:	33 ff                	xor    %edi,%edi
+  401d0b:	33 c0                	xor    %eax,%eax
+  401e07:	33 c0                	xor    %eax,%eax
+  401e18:	33 c0                	xor    %eax,%eax
+  401e3b:	33 ff                	xor    %edi,%edi
+  401f1c:	33 f6                	xor    %esi,%esi
+  401f4c:	33 c0                	xor    %eax,%eax
+  401f77:	33 c0                	xor    %eax,%eax
+  401fe3:	33 c0                	xor    %eax,%eax
+  402003:	33 c0                	xor    %eax,%eax
+  40201b:	33 db                	xor    %ebx,%ebx
+  402167:	33 c0                	xor    %eax,%eax
+  402412:	33 c9                	xor    %ecx,%ecx
+  40243d:	33 c0                	xor    %eax,%eax
+  402469:	33 c0                	xor    %eax,%eax
+  402547:	33 c0                	xor    %eax,%eax
+  40264b:	33 c0                	xor    %eax,%eax
+  4026ba:	33 d2                	xor    %edx,%edx
+  40276f:	33 c0                	xor    %eax,%eax
+  40292b:	33 d2                	xor    %edx,%edx
+  4029ad:	33 c0                	xor    %eax,%eax
+  4029d2:	33 db                	xor    %ebx,%ebx
+  4029f2:	33 ff                	xor    %edi,%edi
+  402b61:	33 c0                	xor    %eax,%eax
+  402b84:	33 c9                	xor    %ecx,%ecx
+  402ba6:	33 d2                	xor    %edx,%edx
+  402bbd:	33 c0                	xor    %eax,%eax
+  402bcf:	33 d2                	xor    %edx,%edx
+  402be6:	33 c0                	xor    %eax,%eax
+  402c39:	33 db                	xor    %ebx,%ebx
+  402cc2:	33 c9                	xor    %ecx,%ecx
+  402cd1:	33 cb                	xor    %ebx,%ecx
+  402cd3:	33 db                	xor    %ebx,%ebx
+  402ced:	33 cb                	xor    %ebx,%ecx
+  402cf2:	33 c8                	xor    %eax,%ecx
+  402cf4:	33 c0                	xor    %eax,%eax
+  402d03:	33 c8                	xor    %eax,%ecx
+  402d05:	31 8e 14 04 00 00    	xor    %ecx,0x414(%esi)
+  402d28:	31 18                	xor    %ebx,(%eax)
+  402d3e:	31 18                	xor    %ebx,(%eax)
+  402d4c:	33 c9                	xor    %ecx,%ecx
+  402d51:	33 db                	xor    %ebx,%ebx
+  402d6c:	33 cb                	xor    %ebx,%ecx
+  402d6e:	33 db                	xor    %ebx,%ebx
+  402d88:	33 cb                	xor    %ebx,%ecx
+  402d8d:	33 c8                	xor    %eax,%ecx
+  402d95:	31 8e 24 04 00 00    	xor    %ecx,0x424(%esi)
+  402d9f:	31 18                	xor    %ebx,(%eax)
+  402e27:	33 d2                	xor    %edx,%edx
+  402e2c:	33 db                	xor    %ebx,%ebx
+  402e3b:	33 14 9d fc af 40 00 	xor    0x40affc(,%ebx,4),%edx
+  402e42:	33 db                	xor    %ebx,%ebx
+  402e4b:	33 14 9d fc b3 40 00 	xor    0x40b3fc(,%ebx,4),%edx
+  402e52:	33 14 85 fc b7 40 00 	xor    0x40b7fc(,%eax,4),%edx
+  402eb1:	33 db                	xor    %ebx,%ebx
+  402ec4:	33 c9                	xor    %ecx,%ecx
+  402ed5:	33 57 08             	xor    0x8(%edi),%edx
+  402ee9:	33 c9                	xor    %ecx,%ecx
+  402ef6:	33 77 0c             	xor    0xc(%edi),%esi
+  402f18:	33 4f 10             	xor    0x10(%edi),%ecx
+  402f2f:	33 db                	xor    %ebx,%ebx
+  402f41:	33 5f 14             	xor    0x14(%edi),%ebx
+  402f5f:	33 c0                	xor    %eax,%eax
+  402f61:	33 db                	xor    %ebx,%ebx
+  402f70:	33 c0                	xor    %eax,%eax
+  402f72:	33 3c 9d fc 8f 40 00 	xor    0x408ffc(,%ebx,4),%edi
+  402f7c:	33 db                	xor    %ebx,%ebx
+  402f7e:	33 3c 85 fc 8b 40 00 	xor    0x408bfc(,%eax,4),%edi
+  402f8c:	33 3c 85 fc 97 40 00 	xor    0x4097fc(,%eax,4),%edi
+  402f96:	33 78 fc             	xor    -0x4(%eax),%edi
+  402f99:	33 c0                	xor    %eax,%eax
+  402fa5:	33 04 9d fc 8b 40 00 	xor    0x408bfc(,%ebx,4),%eax
+  402fac:	33 db                	xor    %ebx,%ebx
+  402fb5:	33 04 9d fc 93 40 00 	xor    0x4093fc(,%ebx,4),%eax
+  402fc2:	33 04 95 fc 97 40 00 	xor    0x4097fc(,%edx,4),%eax
+  402fcf:	33 02                	xor    (%edx),%eax
+  402fd1:	33 d2                	xor    %edx,%edx
+  402fd9:	33 c0                	xor    %eax,%eax
+  402fe5:	33 04 95 fc 93 40 00 	xor    0x4093fc(,%edx,4),%eax
+  402fec:	33 d2                	xor    %edx,%edx
+  402ff1:	33 04 95 fc 8f 40 00 	xor    0x408ffc(,%edx,4),%eax
+  402ffc:	33 04 95 fc 97 40 00 	xor    0x4097fc(,%edx,4),%eax
+  403003:	33 d2                	xor    %edx,%edx
+  403007:	33 c9                	xor    %ecx,%ecx
+  40300c:	33 43 e4             	xor    -0x1c(%ebx),%eax
+  403019:	33 14 8d fc 8f 40 00 	xor    0x408ffc(,%ecx,4),%edx
+  403020:	33 c9                	xor    %ecx,%ecx
+  403025:	33 14 8d fc 8b 40 00 	xor    0x408bfc(,%ecx,4),%edx
+  403034:	33 14 8d fc 97 40 00 	xor    0x4097fc(,%ecx,4),%edx
+  403041:	33 53 d8             	xor    -0x28(%ebx),%edx
+  403061:	33 c0                	xor    %eax,%eax
+  403074:	32 c3                	xor    %bl,%al
+  40307d:	33 db                	xor    %ebx,%ebx
+  40308b:	32 da                	xor    %dl,%bl
+  40308d:	33 d2                	xor    %edx,%edx
+  4030a0:	32 d3                	xor    %bl,%dl
+  4030a2:	33 db                	xor    %ebx,%ebx
+  4030b5:	32 55 fc             	xor    -0x4(%ebp),%dl
+  4030ca:	32 da                	xor    %dl,%bl
+  4030cc:	33 d2                	xor    %edx,%edx
+  4030e0:	32 d3                	xor    %bl,%dl
+  4030e8:	33 d2                	xor    %edx,%edx
+  4030f6:	32 d3                	xor    %bl,%dl
+  4030f8:	33 db                	xor    %ebx,%ebx
+  40310b:	32 55 fc             	xor    -0x4(%ebp),%dl
+  403120:	32 da                	xor    %dl,%bl
+  403122:	33 d2                	xor    %edx,%edx
+  403136:	32 d3                	xor    %bl,%dl
+  40313e:	33 d2                	xor    %edx,%edx
+  40314c:	32 d3                	xor    %bl,%dl
+  40315f:	32 55 fc             	xor    -0x4(%ebp),%dl
+  403168:	33 d2                	xor    %edx,%edx
+  40317b:	32 d3                	xor    %bl,%dl
+  403182:	33 d2                	xor    %edx,%edx
+  403190:	32 d3                	xor    %bl,%dl
+  403197:	33 d2                	xor    %edx,%edx
+  4031a5:	32 d3                	xor    %bl,%dl
+  4031b1:	32 4d fc             	xor    -0x4(%ebp),%cl
+  403200:	33 d2                	xor    %edx,%edx
+  403211:	33 8f e8 01 00 00    	xor    0x1e8(%edi),%ecx
+  403228:	33 d2                	xor    %edx,%edx
+  403235:	33 b7 ec 01 00 00    	xor    0x1ec(%edi),%esi
+  40324f:	33 d2                	xor    %edx,%edx
+  40325c:	33 b7 f0 01 00 00    	xor    0x1f0(%edi),%esi
+  403276:	33 d2                	xor    %edx,%edx
+  403288:	33 97 f4 01 00 00    	xor    0x1f4(%edi),%edx
+  4032ac:	33 c0                	xor    %eax,%eax
+  4032ae:	33 db                	xor    %ebx,%ebx
+  4032bd:	33 c0                	xor    %eax,%eax
+  4032bf:	33 3c 9d fc 9b 40 00 	xor    0x409bfc(,%ebx,4),%edi
+  4032c9:	33 db                	xor    %ebx,%ebx
+  4032cb:	33 3c 85 fc 9f 40 00 	xor    0x409ffc(,%eax,4),%edi
+  4032da:	33 3c 85 fc a7 40 00 	xor    0x40a7fc(,%eax,4),%edi
+  4032e1:	33 c0                	xor    %eax,%eax
+  4032e6:	33 7a fc             	xor    -0x4(%edx),%edi
+  4032f0:	33 04 9d fc 9f 40 00 	xor    0x409ffc(,%ebx,4),%eax
+  4032f7:	33 db                	xor    %ebx,%ebx
+  4032fd:	33 04 9d fc a3 40 00 	xor    0x40a3fc(,%ebx,4),%eax
+  403309:	33 04 9d fc a7 40 00 	xor    0x40a7fc(,%ebx,4),%eax
+  403310:	33 db                	xor    %ebx,%ebx
+  403315:	33 02                	xor    (%edx),%eax
+  403317:	33 d2                	xor    %edx,%edx
+  403323:	33 14 9d fc 9f 40 00 	xor    0x409ffc(,%ebx,4),%edx
+  40332a:	33 db                	xor    %ebx,%ebx
+  403332:	33 14 9d fc a3 40 00 	xor    0x40a3fc(,%ebx,4),%edx
+  403339:	33 14 8d fc a7 40 00 	xor    0x40a7fc(,%ecx,4),%edx
+  403343:	33 51 04             	xor    0x4(%ecx),%edx
+  403346:	33 c9                	xor    %ecx,%ecx
+  40334e:	33 d2                	xor    %edx,%edx
+  403360:	33 0c 95 fc a3 40 00 	xor    0x40a3fc(,%edx,4),%ecx
+  403367:	33 d2                	xor    %edx,%edx
+  40336f:	33 0c 95 fc 9b 40 00 	xor    0x409bfc(,%edx,4),%ecx
+  40337e:	33 0c 95 fc a7 40 00 	xor    0x40a7fc(,%edx,4),%ecx
+  403388:	33 4a f8             	xor    -0x8(%edx),%ecx
+  4033b4:	33 c0                	xor    %eax,%eax
+  4033c7:	32 c3                	xor    %bl,%al
+  4033d0:	33 db                	xor    %ebx,%ebx
+  4033de:	32 da                	xor    %dl,%bl
+  4033e0:	33 d2                	xor    %edx,%edx
+  4033f4:	32 d3                	xor    %bl,%dl
+  4033f6:	33 db                	xor    %ebx,%ebx
+  403409:	32 55 fc             	xor    -0x4(%ebp),%dl
+  40341e:	32 da                	xor    %dl,%bl
+  403420:	33 d2                	xor    %edx,%edx
+  403434:	32 d3                	xor    %bl,%dl
+  40343c:	33 d2                	xor    %edx,%edx
+  40344a:	32 d3                	xor    %bl,%dl
+  40344c:	33 db                	xor    %ebx,%ebx
+  40345f:	32 55 fc             	xor    -0x4(%ebp),%dl
+  403474:	32 da                	xor    %dl,%bl
+  403476:	33 d2                	xor    %edx,%edx
+  40348a:	32 d3                	xor    %bl,%dl
+  403492:	33 d2                	xor    %edx,%edx
+  40349f:	32 d3                	xor    %bl,%dl
+  4034b2:	32 55 fc             	xor    -0x4(%ebp),%dl
+  4034bb:	33 d2                	xor    %edx,%edx
+  4034ce:	32 d3                	xor    %bl,%dl
+  4034d5:	33 d2                	xor    %edx,%edx
+  4034e3:	32 d3                	xor    %bl,%dl
+  4034ea:	33 d2                	xor    %edx,%edx
+  4034f8:	32 d3                	xor    %bl,%dl
+  403504:	32 4d fc             	xor    -0x4(%ebp),%cl
+  403563:	33 c9                	xor    %ecx,%ecx
+  4035b8:	33 d2                	xor    %edx,%edx
+  4035d3:	31 1a                	xor    %ebx,(%edx)
+  40362c:	33 d2                	xor    %edx,%edx
+  403656:	33 1c 85 fc 97 40 00 	xor    0x4097fc(,%eax,4),%ebx
+  403663:	33 c0                	xor    %eax,%eax
+  40366c:	33 1c 85 fc 8f 40 00 	xor    0x408ffc(,%eax,4),%ebx
+  403673:	33 c0                	xor    %eax,%eax
+  403678:	33 1c 85 fc 8b 40 00 	xor    0x408bfc(,%eax,4),%ebx
+  403686:	33 18                	xor    (%eax),%ebx
+  40370c:	33 c0                	xor    %eax,%eax
+  40371d:	32 c2                	xor    %dl,%al
+  40372a:	33 c0                	xor    %eax,%eax
+  40373f:	32 c2                	xor    %dl,%al
+  403748:	33 c0                	xor    %eax,%eax
+  40375e:	32 c2                	xor    %dl,%al
+  40377d:	32 45 08             	xor    0x8(%ebp),%al
+  4037eb:	33 c9                	xor    %ecx,%ecx
+  403843:	33 d2                	xor    %edx,%edx
+  40385e:	31 1a                	xor    %ebx,(%edx)
+  4038ba:	33 d2                	xor    %edx,%edx
+  4038e4:	33 1c 85 fc a7 40 00 	xor    0x40a7fc(,%eax,4),%ebx
+  4038f1:	33 c0                	xor    %eax,%eax
+  4038fa:	33 1c 85 fc 9f 40 00 	xor    0x409ffc(,%eax,4),%ebx
+  403901:	33 c0                	xor    %eax,%eax
+  403906:	33 1c 85 fc 9b 40 00 	xor    0x409bfc(,%eax,4),%ebx
+  403914:	33 18                	xor    (%eax),%ebx
+  40399d:	33 c0                	xor    %eax,%eax
+  4039ae:	32 c2                	xor    %dl,%al
+  4039bb:	33 c0                	xor    %eax,%eax
+  4039d0:	32 c2                	xor    %dl,%al
+  4039d9:	33 c0                	xor    %eax,%eax
+  4039ef:	32 c2                	xor    %dl,%al
+  403a0e:	32 45 08             	xor    0x8(%ebp),%al
+  403a51:	33 f6                	xor    %esi,%esi
+  403a64:	30 10                	xor    %dl,(%eax)
+  403a81:	33 db                	xor    %ebx,%ebx
+  403ab6:	33 d2                	xor    %edx,%edx
+  403b0e:	33 d2                	xor    %edx,%edx
+  403b3a:	33 d2                	xor    %edx,%edx
+  403b76:	33 d2                	xor    %edx,%edx
+  403b8b:	33 d2                	xor    %edx,%edx
+  403ba5:	33 d2                	xor    %edx,%edx
+  4042c5:	33 db                	xor    %ebx,%ebx
+  404391:	33 c0                	xor    %eax,%eax
+  404516:	33 c8                	xor    %eax,%ecx
+  404521:	33 c0                	xor    %eax,%eax
+  404802:	33 c9                	xor    %ecx,%ecx
+  40489c:	33 c0                	xor    %eax,%eax
+  404c14:	33 c0                	xor    %eax,%eax
+  404c2b:	33 d2                	xor    %edx,%edx
+  404c7e:	33 c0                	xor    %eax,%eax
+  404d0c:	33 c9                	xor    %ecx,%ecx
+  404d11:	33 ff                	xor    %edi,%edi
+  404d27:	33 ff                	xor    %edi,%edi
+  404d49:	33 d2                	xor    %edx,%edx
+  404e98:	33 d2                	xor    %edx,%edx
+  404f21:	33 d2                	xor    %edx,%edx
+  404f32:	33 c8                	xor    %eax,%ecx
+  404f38:	33 c8                	xor    %eax,%ecx
+  4050c3:	33 ff                	xor    %edi,%edi
+  40514a:	33 c0                	xor    %eax,%eax
+  4053b4:	33 c0                	xor    %eax,%eax
+  405429:	33 c0                	xor    %eax,%eax
+  405455:	33 f3                	xor    %ebx,%esi
+  405463:	33 c3                	xor    %ebx,%eax
+  40546d:	33 f3                	xor    %ebx,%esi
+  40547d:	33 f0                	xor    %eax,%esi
+  405484:	33 c3                	xor    %ebx,%eax
+  405494:	33 c6                	xor    %esi,%eax
+  40549b:	33 f3                	xor    %ebx,%esi
+  4054ab:	33 f0                	xor    %eax,%esi
+  4054b2:	33 c3                	xor    %ebx,%eax
+  4054c2:	33 c6                	xor    %esi,%eax
+  4054c9:	33 f3                	xor    %ebx,%esi
+  4054d9:	33 f0                	xor    %eax,%esi
+  4054e0:	33 c3                	xor    %ebx,%eax
+  4054f0:	33 c6                	xor    %esi,%eax
+  4054f7:	33 f3                	xor    %ebx,%esi
+  405503:	33 c6                	xor    %esi,%eax
+  40551b:	33 f7                	xor    %edi,%esi
+  405527:	33 c6                	xor    %esi,%eax
+  40554b:	33 c7                	xor    %edi,%eax
+  405557:	33 c6                	xor    %esi,%eax
+  405574:	33 c7                	xor    %edi,%eax
+  405581:	33 c6                	xor    %esi,%eax
+  405598:	83 f1 01             	xor    $0x1,%ecx
+  40559e:	33 c0                	xor    %eax,%eax
+  4055ae:	30 45 0c             	xor    %al,0xc(%ebp)
+  4056b7:	33 d2                	xor    %edx,%edx
+  4056c1:	33 d2                	xor    %edx,%edx
+  4056fe:	33 d2                	xor    %edx,%edx
+  405731:	33 c0                	xor    %eax,%eax
+  40576e:	33 c0                	xor    %eax,%eax
+  405797:	33 ff                	xor    %edi,%edi
+  405832:	33 c0                	xor    %eax,%eax
+  405907:	33 d2                	xor    %edx,%edx
+  405bd5:	33 db                	xor    %ebx,%ebx
+  405bd7:	33 ff                	xor    %edi,%edi
+  405c11:	33 c0                	xor    %eax,%eax
+  405cc3:	33 c0                	xor    %eax,%eax
+  405cda:	33 c0                	xor    %eax,%eax
+  405ce2:	33 c9                	xor    %ecx,%ecx
+  405d05:	33 c0                	xor    %eax,%eax
+  405d14:	33 d2                	xor    %edx,%edx
+  405d86:	33 c0                	xor    %eax,%eax
+  405de6:	33 d2                	xor    %edx,%edx
+  405e14:	33 c0                	xor    %eax,%eax
+  40610b:	33 d2                	xor    %edx,%edx
+  406119:	33 c0                	xor    %eax,%eax
+  40618c:	33 c0                	xor    %eax,%eax
+  4061eb:	33 ff                	xor    %edi,%edi
+  4064e8:	33 ff                	xor    %edi,%edi
+  406513:	33 c9                	xor    %ecx,%ecx
+  406526:	33 ff                	xor    %edi,%edi
+  40656d:	33 c9                	xor    %ecx,%ecx
+  40658c:	33 ff                	xor    %edi,%edi
+  406729:	33 db                	xor    %ebx,%ebx
+  4067aa:	33 c0                	xor    %eax,%eax
+  406879:	33 c0                	xor    %eax,%eax
+  406889:	33 d2                	xor    %edx,%edx
+  4069c1:	33 c0                	xor    %eax,%eax
+  406a75:	33 c0                	xor    %eax,%eax
+  406a9e:	33 ed                	xor    %ebp,%ebp
+  406cac:	33 c9                	xor    %ecx,%ecx
+  406d09:	33 ff                	xor    %edi,%edi
+  406e7e:	33 ff                	xor    %edi,%edi
+  406f9c:	33 c9                	xor    %ecx,%ecx
+  406fd6:	33 c9                	xor    %ecx,%ecx
+  40700f:	33 c9                	xor    %ecx,%ecx
+  407060:	33 c0                	xor    %eax,%eax
+  4071e3:	33 c0                	xor    %eax,%eax
+  4071f8:	33 c0                	xor    %eax,%eax
+  407312:	33 c0                	xor    %eax,%eax
+  4074a0:	33 c0                	xor    %eax,%eax
+  4074d4:	33 f6                	xor    %esi,%esi
+  407505:	33 c0                	xor    %eax,%eax
+  40753a:	33 c0                	xor    %eax,%eax
+  4075cc:	33 d2                	xor    %edx,%edx
+  4077e0:	33 db                	xor    %ebx,%ebx
+  40793c:	33 c0                	xor    %eax,%eax
