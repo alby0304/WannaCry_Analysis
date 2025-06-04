@@ -100,13 +100,13 @@ These templates contain messages and instructions for paying the ransom, localiz
 
 Map showing the spread of WannaCry. Source: Wikipedia.org
 
-1. **Secondary Executables**
+2. **Secondary Executables**
 
 Within the main payload, two auxiliary processes are invoked:
 
 - taskdl.exe – likely a downloader for additional components
 - taskse.exe – likely a service or script executor
-1. **System Commands and Permissions**
+3. **System Commands and Permissions**
 
 The malware uses Windows commands to modify permissions and hide the encrypted files:
 
@@ -119,7 +119,7 @@ cmd.exe /c "%s"
 - `icacls` grants full access to all users
 - `attrib +h` makes the files hidden
 - the switch to `cmd.exe` shows the ability to execute arbitrary commands
-1. **Bitcoin Ransom Addresses**
+4. **Bitcoin Ransom Addresses**
 
 Three Bitcoin addresses are included for ransom payments:
 
@@ -131,7 +131,7 @@ Three Bitcoin addresses are included for ransom payments:
 
 These addresses match those documented in the original incident response reports.
 
-1. **Encryption Functions**
+5. **Encryption Functions**
 
 The ransomware relies on the Microsoft RSA/AES cryptographic provider for encryption:
 
@@ -148,7 +148,7 @@ CryptReleaseContext
 
 These APIs handle key generation, key import, and the application of encryption algorithms.
 
-1. **Compatibility Manifest**
+6. **Compatibility Manifest**
 
 The XML manifest reveals the required privileges and the supported operating systems:
 
@@ -181,15 +181,15 @@ Below are the main libraries and APIs grouped by category:
 
 This library provides essential functions for file system and memory access—critical elements for WannaCry's operation. Specifically, the ransomware uses `CreateFileA`, `ReadFile`, and `WriteFile` to open, read, and encrypt the victim's files; it allocates and frees memory using `VirtualAlloc`, `VirtualFree`, and `HeapAlloc`; and coordinates concurrent access with `InitializeCriticalSection`, `EnterCriticalSection`, and `LeaveCriticalSection`. It also leverages `GetTempPathW` and `GetWindowsDirectoryW` to locate system paths and `CopyFileA` to duplicate files, while `Sleep` and `OpenMutexA` appear designed to introduce delays or evade sandbox analysis.
 
-1. **USER32.dll**
+2. **USER32.dll**
 
 WannaCry imports only the `wsprintfA` function from this library, used to format strings displayed in its ransom GUI. This allows it to dynamically construct messages shown to the user, including names of encrypted files, payment instructions, and countdown timers.
 
-1. **ADVAPI32.dll**
+3. **ADVAPI32.dll**
 
 This library hosts APIs required for persistence and encryption. The malware creates or modifies registry keys using `RegCreateKeyW`, `RegSetValueExA`, and `RegQueryValueExA` to ensure it runs automatically on system startup. It interacts with the Service Control Manager through `CreateServiceA`, `OpenServiceA`, `StartServiceA`, and `OpenSCManagerA` to manage potential malicious services. Finally, it uses `CryptAcquireContextA` and `CryptReleaseContext` to access the Microsoft RSA/AES cryptographic provider—a key component for encrypting the victim's files.
 
-1. **MSVCRT.dll**
+4. **MSVCRT.dll**
 
 The C/C++ runtime library is used for low-level operations: opening and reading/writing files in C-style (`fopen`, `fread`, `fwrite`, `fclose`), string manipulation (`sprintf`, `strcpy`, `memset`, `strlen`, `wcscat`, `wcslen`), and memory management (`malloc`, `free`, `realloc`, `memcpy`). The presence of C++ support functions like `__CxxFrameHandler`, `_except_handler3`, and `_local_unwind2` also indicates that part of the code is written in C++, including runtime exception handling.
 
@@ -248,7 +248,7 @@ and wrote them into the following `.txt` file:
 
 It is evident that there are no specific loops whose primary purpose is to obfuscate the file; rather, these are simple register-clearing operations used to initialize the state before function calls. This confirms that there is no additional obfuscation layer based on XOR loops.
 
-1. **Detection of CryptoAPI Calls**
+2. **Detection of CryptoAPI Calls**
 
 Based on the import table (Section 2.2), we searched for the points where the malware invokes Microsoft's cryptographic functions:
 
