@@ -1,4 +1,4 @@
-# Practica 6 - Parte A
+# Práctica 6 - Parte A
 
 # Malware WannaCry
 
